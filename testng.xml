@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" name="Discovery TestSuite"
+	parallel="tests">
+	<test name="TaskOne_Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.discovery.go.Tests.Task1" />
+		</classes>
+	</test>
+	<!-- <test name="TaskOne_Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.discovery.go.Tests.Task1" />
+		</classes>
+	</test> -->
+</suite>

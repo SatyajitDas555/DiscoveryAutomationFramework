@@ -1,0 +1,12 @@
+com\discovery\go\pageObjects\HomePageObjects.class
+com\discovery\go\logs\Log.class
+com\discovery\go\report\factory\ExtentManager.class
+com\discovery\go\pageObjects\TvShowsPageObjects.class
+com\discovery\go\pages\MyVideosPage.class
+com\discovery\go\pageObjects\MyVideosPageObjects.class
+com\discovery\go\report\factory\ExtentTestManager.class
+com\discovery\go\pageObjects\ShowsInfoPageObjects.class
+com\discovery\go\pages\HomePage.class
+com\discovery\go\common\utilities\PropertyHandler.class
+com\discovery\go\base\UserBaseTest.class
+com\discovery\go\pages\TvShowsPage.class

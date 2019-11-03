@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=========Browser Session started==========]]>
+    </line>
+    <line>
+      <![CDATA[=========Application Session started==========]]>
+    </line>
+    <line>
+      <![CDATA[==Scroll Page to display Show All button=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Clicked Show All button=====]]>
+    </line>
+    <line>
+      <![CDATA[==Getting Favorite Vedio List=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Discovery TestSuite" duration-ms="203586" started-at="2019-11-03T17:19:58 IST" finished-at="2019-11-03T17:23:21 IST">
+    <groups>
+    </groups>
+    <test name="TaskOne_Chrome" duration-ms="203586" started-at="2019-11-03T17:19:58 IST" finished-at="2019-11-03T17:23:21 IST">
+      <class name="com.discovery.go.Tests.Task1">
+        <test-method status="PASS" signature="testSetUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.discovery.go.Tests.Task1@548a9f61]" name="testSetUp" is-config="true" duration-ms="38792" started-at="2019-11-03T17:19:58 IST" finished-at="2019-11-03T17:20:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.discovery.go.Tests.Task1.testTaskOne() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========Browser Session started==========]]>
+            </line>
+            <line>
+              <![CDATA[=========Application Session started==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testTaskOne()[pri:0, instance:com.discovery.go.Tests.Task1@548a9f61]" name="testTaskOne" duration-ms="164437" started-at="2019-11-03T17:20:37 IST" finished-at="2019-11-03T17:23:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[==Scroll Page to display Show All button=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Clicked Show All button=====]]>
+            </line>
+            <line>
+              <![CDATA[==Getting Favorite Vedio List=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTaskOne -->
+        <test-method status="PASS" signature="testTearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.discovery.go.Tests.Task1@548a9f61]" name="testTearDown" is-config="true" duration-ms="253" started-at="2019-11-03T17:23:21 IST" finished-at="2019-11-03T17:23:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.discovery.go.Tests.Task1.testTaskOne() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testTaskOne status=SUCCESS method=Task1.testTaskOne()[pri:0, instance:com.discovery.go.Tests.Task1@548a9f61] output===Scroll Page to display Show All button=====]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:com.discovery.go.Tests.Task1@548a9f61]" name="closeResources" is-config="true" duration-ms="1725" started-at="2019-11-03T17:23:23 IST" finished-at="2019-11-03T17:23:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- com.discovery.go.Tests.Task1 -->
+    </test> <!-- TaskOne_Chrome -->
+  </suite> <!-- Discovery TestSuite -->
+</testng-results>
