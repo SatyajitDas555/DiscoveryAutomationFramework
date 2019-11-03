@@ -4,7 +4,7 @@ Environment: <br />
 Tested Chrome Browser Version: 78 <br />
 OS: Windows <br />
 
-Automated Scenarios:Task One
+Automated Scenarios: Task One <br />
 1.Navigate to https://go.discovery.com/ <br />
 2.Select “See All Shows” available in “Shows” tab <br />
 3.Wait till the page loads and then select the shows which contain “APOLLO” <br />
