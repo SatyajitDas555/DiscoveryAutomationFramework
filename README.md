@@ -27,5 +27,5 @@ mvn clean test
 Please check emailable-report.html (default TestNg report) inside test-output folder
 
 ## Extent Report
-Path : Root Directory --> target folder --> html folder --> Extent*.html <br />
+Path : Root Directory --> target folder --> Extent*.html <br />
 Please open in any browser and evaluate the report with the detail information
